@@ -1,0 +1,5 @@
+# Local-only files. The default package directory is empty in M1.
+
+**/jsconfig.json
+**/.eslintrc.json
+**/__tests__/**

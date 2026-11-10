@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lead_Requires_Email_Or_Phone</fullName>
+    <active>true</active>
+    <description>REQ-003. Qualification needs a way to reach the lead.</description>
+    <errorConditionFormula>AND(ISBLANK(Email), ISBLANK(Phone))</errorConditionFormula>
+    <errorDisplayField>Email</errorDisplayField>
+    <errorMessage>Enter an email address or a phone number before saving this lead.</errorMessage>
+</ValidationRule>

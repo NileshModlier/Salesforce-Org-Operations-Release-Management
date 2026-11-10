@@ -1,0 +1,21 @@
+Subject,Status,Priority,Origin,Type,CreatedDate,First_Response_At__c,Escalation_Reason__c,Resolution_Notes__c,LogicalOwner,LogicalEscalatedBy,AccountName
+Case 01,New,High,Phone,Question,2026-11-01T09:00:00.000Z,,,,L1 Agent A,,Acme
+Case 02,New,Medium,Email,Question,2026-11-01T09:00:00.000Z,,,,L1 Agent A,,Acme
+Case 03,New,Low,Web,Question,2026-11-01T09:00:00.000Z,,,,L1 Agent A,,Northwind
+Case 04,Working,High,Phone,Question,2026-11-01T09:00:00.000Z,2026-11-01T11:00:00.000Z,,,L1 Agent A,,Acme
+Case 05,Working,High,Email,Question,2026-11-01T09:00:00.000Z,2026-11-01T11:00:00.000Z,,,L1 Agent B,,Northwind
+Case 06,Working,Medium,Web,Feature Request,2026-11-01T09:00:00.000Z,2026-11-01T11:00:00.000Z,,,L1 Agent B,,Acme
+Case 07,Working,Low,Phone,Question,2026-11-01T09:00:00.000Z,2026-11-01T11:00:00.000Z,,,L1 Agent A,,Northwind
+Case 08,Waiting on Customer,Medium,Email,Question,2026-11-01T09:00:00.000Z,2026-11-01T11:00:00.000Z,,,L1 Agent A,,Acme
+Case 09,Waiting on Customer,Low,Web,Question,2026-11-01T09:00:00.000Z,2026-11-01T11:00:00.000Z,,,L1 Agent B,,Northwind
+Case 10,Escalated,High,Phone,Problem,2026-11-01T09:00:00.000Z,2026-11-01T11:00:00.000Z,Synthetic escalation for the backlog report,,L2 Escalation Queue,Ops Admin,Acme
+Case 11,Escalated,High,Email,Problem,2026-11-01T09:00:00.000Z,2026-11-01T11:00:00.000Z,Synthetic escalation for the backlog report,,L2 Escalation Queue,Ops Admin,Northwind
+Case 12,Escalated,Medium,Web,Feature Request,2026-11-01T09:00:00.000Z,2026-11-01T13:00:00.000Z,Synthetic escalation for the backlog report,,L2 Escalation Queue,Ops Admin,Acme
+Case 13,Escalated,Low,Phone,Question,2026-11-01T09:00:00.000Z,2026-11-01T13:00:00.000Z,Synthetic escalation for the backlog report,,L2 Escalation Queue,Ops Admin,Northwind
+Case 14,Closed,High,Email,Question,2026-11-01T09:00:00.000Z,2026-11-01T13:00:00.000Z,,Synthetic resolution for the closed-case report.,L1 Agent A,,Acme
+Case 15,Closed,Medium,Web,Question,2026-11-01T09:00:00.000Z,2026-11-01T13:00:00.000Z,,Synthetic resolution for the closed-case report.,L1 Agent A,,Northwind
+Case 16,Closed,Low,Phone,Question,2026-11-01T09:00:00.000Z,2026-11-01T13:00:00.000Z,,Synthetic resolution for the closed-case report.,L1 Agent B,,Acme
+Case 17,Closed,High,Email,Problem,2026-11-01T09:00:00.000Z,2026-11-01T13:00:00.000Z,,Synthetic resolution for the closed-case report.,L1 Agent B,,Northwind
+Case 18,Closed,Medium,Web,Question,2026-11-01T09:00:00.000Z,2026-11-01T13:00:00.000Z,,Synthetic resolution for the closed-case report.,L2 Lead,,Acme
+Case 19,Working,High,Phone,Question,2026-11-01T09:00:00.000Z,2026-11-01T13:00:00.000Z,,,L1 Agent A,,Northwind
+Case 20,New,High,Email,Question,2026-11-01T09:00:00.000Z,,,,L1 Agent B,,Acme

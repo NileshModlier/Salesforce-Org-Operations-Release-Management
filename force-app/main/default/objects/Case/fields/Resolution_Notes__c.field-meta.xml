@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Resolution_Notes__c</fullName>
+    <description>How the case was resolved. Required by Case_Close_Requires_Resolution when Status is Closed. REQ-008.</description>
+    <inlineHelpText>Describe the resolution before closing the case.</inlineHelpText>
+    <label>Resolution Notes</label>
+    <length>1000</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>4</visibleLines>
+</CustomField>

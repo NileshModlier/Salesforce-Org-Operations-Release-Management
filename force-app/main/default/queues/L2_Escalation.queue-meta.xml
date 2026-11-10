@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Owner for high-severity new cases and for high-priority cases the escalation flow ages out.</description>
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>L2 Escalation Queue</name>
+    <queueMembers>
+        <publicGroups>
+            <publicGroup>Support_L2</publicGroup>
+        </publicGroups>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

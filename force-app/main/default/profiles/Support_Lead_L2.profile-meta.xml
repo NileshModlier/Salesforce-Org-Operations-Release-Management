@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Profile xmlns="http://soap.sforce.com/2006/04/metadata">
+    <custom>true</custom>
+    <description>Minimum-access shell for Support Lead L2. Service app, L2 case layout, and read-only opportunity layout.</description>
+    <userLicense>Salesforce</userLicense>
+    <applicationVisibilities>
+        <application>standard__LightningService</application>
+        <default>true</default>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <layoutAssignments>
+        <layout>Case-Support Lead L2</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Opportunity-Support Lead L2</layout>
+    </layoutAssignments>
+</Profile>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowTest xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>A status change that does not start at New does not stamp First Response At again.</description>
+    <flowApiName>First_Response_Tracking</flowApiName>
+    <label>Skip when the case was not New</label>
+    <testPoints>
+        <elementApiName>Start</elementApiName>
+        <parameters>
+            <leftValueReference>$Record</leftValueReference>
+            <type>InputTriggeringRecordInitial</type>
+            <value>
+                <sobjectValue>{"attributes":{"type":"Case"},"Subject":"Password reset","Status":"Working","Priority":"Medium","Origin":"Phone"}</sobjectValue>
+            </value>
+        </parameters>
+        <parameters>
+            <leftValueReference>$Record</leftValueReference>
+            <type>InputTriggeringRecordUpdated</type>
+            <value>
+                <sobjectValue>{"attributes":{"type":"Case"},"Subject":"Password reset","Status":"Waiting on Customer","Priority":"Medium","Origin":"Phone"}</sobjectValue>
+            </value>
+        </parameters>
+    </testPoints>
+    <testPoints>
+        <assertions>
+            <conditions>
+                <leftValueReference>Outcome</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Skipped</stringValue>
+                </rightValue>
+            </conditions>
+            <errorMessage>First response was stamped on a case that was not leaving New.</errorMessage>
+        </assertions>
+        <elementApiName>Finish</elementApiName>
+    </testPoints>
+    <testType>WithAssertion</testType>
+</FlowTest>

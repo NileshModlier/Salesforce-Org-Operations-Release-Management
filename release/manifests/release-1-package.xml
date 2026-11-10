@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Release 1. Operating process and access. No reports or dashboards. Not deployed. -->
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>Lead.Product_Interest__c</members>
+        <members>Opportunity.Next_Step__c</members>
+        <members>Case.First_Response_At__c</members>
+        <members>Case.Escalation_Reason__c</members>
+        <members>Case.Escalated_By__c</members>
+        <members>Case.Return_Guidance__c</members>
+        <members>Case.Resolution_Notes__c</members>
+        <members>User.Persona__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>LeadStatus</members>
+        <members>OpportunityStage</members>
+        <members>CaseStatus</members>
+        <members>CaseType</members>
+        <name>StandardValueSet</name>
+    </types>
+    <types>
+        <members>Lead.Lead_Requires_Email_Or_Phone</members>
+        <members>Lead.Lead_Convert_Requires_Qualified</members>
+        <members>Opportunity.Opportunity_Closed_Won_Requires_Amount</members>
+        <members>Case.Case_Escalation_Requires_Reason</members>
+        <members>Case.Case_Close_Requires_Resolution</members>
+        <members>Case.Case_Return_Requires_Guidance</members>
+        <name>ValidationRule</name>
+    </types>
+    <types>
+        <members>Lead-Sales Rep</members>
+        <members>Lead-Ops Admin</members>
+        <members>Opportunity-Sales Rep</members>
+        <members>Opportunity-Support Lead L2</members>
+        <members>Opportunity-Ops Admin</members>
+        <members>Case-Support Agent L1</members>
+        <members>Case-Support Lead L2</members>
+        <members>Case-Ops Admin</members>
+        <members>User-Ops Admin</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>Lead_Record_Page</members>
+        <members>Opportunity_Record_Page</members>
+        <members>Case_Record_Page</members>
+        <name>FlexiPage</name>
+    </types>
+    <types>
+        <members>Lead_Assignment</members>
+        <members>Case_Assignment</members>
+        <members>First_Response_Tracking</members>
+        <members>Escalation</members>
+        <name>Flow</name>
+    </types>
+    <types>
+        <members>Lead_Assignment_Core_Product</members>
+        <members>Lead_Assignment_Default</members>
+        <members>Case_Assignment_High_Problem</members>
+        <members>Case_Assignment_High_Question</members>
+        <members>First_Response_Tracking_Stamp</members>
+        <members>First_Response_Tracking_Skip</members>
+        <members>Escalation_Not_Yet_Due</members>
+        <name>FlowTest</name>
+    </types>
+    <types>
+        <members>L1_Support</members>
+        <members>L2_Escalation</members>
+        <name>Queue</name>
+    </types>
+    <types>
+        <members>Support_L1</members>
+        <members>Support_L2</members>
+        <name>Group</name>
+    </types>
+    <types>
+        <members>Escalation_Alert</members>
+        <name>CustomNotificationType</name>
+    </types>
+    <types>
+        <members>Sales_Rep</members>
+        <members>Support_Agent_L1</members>
+        <members>Support_Lead_L2</members>
+        <members>Ops_Admin</members>
+        <name>Profile</name>
+    </types>
+    <types>
+        <members>Sales_Rep</members>
+        <members>Support_L1</members>
+        <members>Support_L2</members>
+        <members>Ops_Admin</members>
+        <members>Reporting_Sales</members>
+        <members>Reporting_Support</members>
+        <members>Reporting_Admin</members>
+        <name>PermissionSet</name>
+    </types>
+    <types>
+        <members>Sales_Rep</members>
+        <members>Support_Agent_L1</members>
+        <members>Support_Lead_L2</members>
+        <members>Ops_Admin</members>
+        <name>PermissionSetGroup</name>
+    </types>
+    <version>68.0</version>
+</Package>

@@ -1,0 +1,25 @@
+LastName,Company,Email,Status,LeadSource,Product_Interest__c,ConvertedTarget
+Lead 01,Northwind,lead01@example.com,Qualified,Web,Core Product,Yes
+Lead 02,Acme,lead02@example.com,Qualified,Web,Add-on Service,Yes
+Lead 03,Northwind,lead03@example.com,Qualified,Web,Renewal,Yes
+Lead 04,Acme,lead04@example.com,Qualified,Web,Undecided,Yes
+Lead 05,Northwind,lead05@example.com,Open - Not Contacted,Web,Core Product,No
+Lead 06,Acme,lead06@example.com,Working - Contacted,Web,Add-on Service,No
+Lead 07,Northwind,lead07@example.com,Qualified,Web,Renewal,No
+Lead 08,Acme,lead08@example.com,Unqualified,Web,Undecided,No
+Lead 09,Northwind,lead09@example.com,Open - Not Contacted,Web,Core Product,No
+Lead 10,Acme,lead10@example.com,Working - Contacted,Web,Add-on Service,No
+Lead 11,Northwind,lead11@example.com,Qualified,Phone Inquiry,Renewal,Yes
+Lead 12,Acme,lead12@example.com,Qualified,Phone Inquiry,Undecided,Yes
+Lead 13,Northwind,lead13@example.com,Qualified,Phone Inquiry,Core Product,Yes
+Lead 14,Acme,lead14@example.com,Open - Not Contacted,Phone Inquiry,Add-on Service,No
+Lead 15,Northwind,lead15@example.com,Working - Contacted,Phone Inquiry,Renewal,No
+Lead 16,Acme,lead16@example.com,Unqualified,Phone Inquiry,Undecided,No
+Lead 17,Northwind,lead17@example.com,Qualified,Partner Referral,Core Product,Yes
+Lead 18,Acme,lead18@example.com,Qualified,Partner Referral,Add-on Service,Yes
+Lead 19,Northwind,lead19@example.com,Open - Not Contacted,Partner Referral,Renewal,No
+Lead 20,Acme,lead20@example.com,Working - Contacted,Partner Referral,Undecided,No
+Lead 21,Northwind,lead21@example.com,Qualified,Other,Core Product,Yes
+Lead 22,Acme,lead22@example.com,Open - Not Contacted,Other,Add-on Service,No
+Lead 23,Northwind,lead23@example.com,Working - Contacted,Other,Renewal,No
+Lead 24,Acme,lead24@example.com,Unqualified,Other,Undecided,No

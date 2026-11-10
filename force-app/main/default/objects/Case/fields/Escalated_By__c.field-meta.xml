@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Escalated_By__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>The user recorded on an escalation. L1 sets it for a manual escalation. The Escalation flow fills it with the Ops Admin user when the field is blank so the validation rule can pass. REQ-007.</description>
+    <inlineHelpText>Select the L1 agent who escalated this case.</inlineHelpText>
+    <label>Escalated By</label>
+    <referenceTo>User</referenceTo>
+    <relationshipLabel>Escalated Cases</relationshipLabel>
+    <relationshipName>Escalated_Cases</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

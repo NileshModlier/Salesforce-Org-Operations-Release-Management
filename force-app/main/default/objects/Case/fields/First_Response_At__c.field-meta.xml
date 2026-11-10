@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>First_Response_At__c</fullName>
+    <description>When the case first left New. First_Response_Tracking stamps this once. It does not overwrite a value already entered. REQ-006.</description>
+    <inlineHelpText>Set this when you send the first response.</inlineHelpText>
+    <label>First Response At</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowTest xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>A new high-priority Problem case routes to the L2 Escalation Queue.</description>
+    <flowApiName>Case_Assignment</flowApiName>
+    <label>High problem routes to L2</label>
+    <testPoints>
+        <elementApiName>Start</elementApiName>
+        <parameters>
+            <leftValueReference>$Record</leftValueReference>
+            <type>InputTriggeringRecordInitial</type>
+            <value>
+                <sobjectValue>{"attributes":{"type":"Case"},"Subject":"System down","Status":"New","Priority":"High","Origin":"Phone","Type":"Problem"}</sobjectValue>
+            </value>
+        </parameters>
+    </testPoints>
+    <testPoints>
+        <assertions>
+            <conditions>
+                <leftValueReference>Route</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>L2</stringValue>
+                </rightValue>
+            </conditions>
+            <errorMessage>A high-priority Problem case did not route to L2.</errorMessage>
+        </assertions>
+        <elementApiName>Finish</elementApiName>
+    </testPoints>
+    <testType>WithAssertion</testType>
+</FlowTest>

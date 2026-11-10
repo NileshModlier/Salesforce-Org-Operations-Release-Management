@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lead_Convert_Requires_Qualified</fullName>
+    <active>true</active>
+    <description>REQ-003. Conversion is allowed only from Qualified. PRIORVALUE is the status before the convert action sets Closed - Converted.</description>
+    <errorConditionFormula>AND(IsConverted, NOT(ISPICKVAL(PRIORVALUE(Status), "Qualified")))</errorConditionFormula>
+    <errorDisplayField>Status</errorDisplayField>
+    <errorMessage>Convert this lead only when its status is Qualified.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowTest xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>A new Core Product lead selects the Core Product placeholder route. The test asserts the route, not a live user id.</description>
+    <flowApiName>Lead_Assignment</flowApiName>
+    <label>Core Product route</label>
+    <testPoints>
+        <elementApiName>Start</elementApiName>
+        <parameters>
+            <leftValueReference>$Record</leftValueReference>
+            <type>InputTriggeringRecordInitial</type>
+            <value>
+                <sobjectValue>{"attributes":{"type":"Lead"},"LastName":"Rivera","Company":"Northwind","Status":"Open - Not Contacted","Email":"a@example.com","Product_Interest__c":"Core Product"}</sobjectValue>
+            </value>
+        </parameters>
+    </testPoints>
+    <testPoints>
+        <assertions>
+            <conditions>
+                <leftValueReference>Route</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>Core Product</stringValue>
+                </rightValue>
+            </conditions>
+            <errorMessage>Lead assignment did not select the Core Product route.</errorMessage>
+        </assertions>
+        <elementApiName>Finish</elementApiName>
+    </testPoints>
+    <testType>WithAssertion</testType>
+</FlowTest>

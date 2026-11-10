@@ -1,0 +1,29 @@
+# Salesforce CLI and local auth
+.sf/
+.sfdx/
+.localdevserver/
+deploy-options.json
+
+# Secrets and org credentials
+*.key
+*.pem
+authFile.json
+jwt/
+.env
+.env.*
+
+# IDE and OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and dependencies
+*.log
+npm-debug.log*
+node_modules/
+
+# Generated test output
+tests/results/

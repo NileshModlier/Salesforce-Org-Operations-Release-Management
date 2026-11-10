@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Profile xmlns="http://soap.sforce.com/2006/04/metadata">
+    <custom>true</custom>
+    <description>Minimum-access shell for Support Agent L1. Service app and the L1 case layout only.</description>
+    <userLicense>Salesforce</userLicense>
+    <applicationVisibilities>
+        <application>standard__LightningService</application>
+        <default>true</default>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <layoutAssignments>
+        <layout>Case-Support Agent L1</layout>
+    </layoutAssignments>
+</Profile>

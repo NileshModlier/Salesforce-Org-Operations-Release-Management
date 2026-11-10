@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlowTest xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>The immediate path does not escalate a high-priority case that is not yet one day old. The scheduled path is the one-day wait.</description>
+    <flowApiName>Escalation</flowApiName>
+    <label>New high priority case is not yet due</label>
+    <testPoints>
+        <elementApiName>Start</elementApiName>
+        <parameters>
+            <leftValueReference>$Record</leftValueReference>
+            <type>InputTriggeringRecordInitial</type>
+            <value>
+                <sobjectValue>{"attributes":{"type":"Case"},"Subject":"Outage","Status":"New","Priority":"High","Origin":"Phone"}</sobjectValue>
+            </value>
+        </parameters>
+    </testPoints>
+    <testPoints>
+        <assertions>
+            <conditions>
+                <leftValueReference>Outcome</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <stringValue>NotDue</stringValue>
+                </rightValue>
+            </conditions>
+            <errorMessage>A new high-priority case was escalated before the one-day threshold.</errorMessage>
+        </assertions>
+        <elementApiName>Finish</elementApiName>
+    </testPoints>
+    <testType>WithAssertion</testType>
+</FlowTest>

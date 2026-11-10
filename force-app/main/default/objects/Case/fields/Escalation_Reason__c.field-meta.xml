@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Escalation_Reason__c</fullName>
+    <description>Why the case left L1. Required by Case_Escalation_Requires_Reason when Status is Escalated. REQ-007.</description>
+    <inlineHelpText>Explain what L1 already tried and why L2 is needed.</inlineHelpText>
+    <label>Escalation Reason</label>
+    <length>1000</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>4</visibleLines>
+</CustomField>

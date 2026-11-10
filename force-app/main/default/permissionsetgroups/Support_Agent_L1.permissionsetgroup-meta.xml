@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Single assignment for the Support Agent L1 persona.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Support Agent L1</label>
+    <permissionSets>Support_L1</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

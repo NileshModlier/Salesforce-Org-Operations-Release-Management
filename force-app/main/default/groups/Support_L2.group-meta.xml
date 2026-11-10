@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Group xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Queue membership for Support Lead L2. Add a user here when that person is assigned the Support L2 permission set group.</description>
+    <doesIncludeBosses>true</doesIncludeBosses>
+    <name>Support L2</name>
+</Group>

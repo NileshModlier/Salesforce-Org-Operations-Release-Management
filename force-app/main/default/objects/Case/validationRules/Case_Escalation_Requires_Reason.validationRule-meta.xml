@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Case_Escalation_Requires_Reason</fullName>
+    <active>true</active>
+    <description>REQ-007. An escalated case needs a reason and the L1 user who escalated it.</description>
+    <errorConditionFormula>AND(ISPICKVAL(Status, "Escalated"), OR(ISBLANK(Escalation_Reason__c), ISBLANK(Escalated_By__c)))</errorConditionFormula>
+    <errorDisplayField>Escalation_Reason__c</errorDisplayField>
+    <errorMessage>Enter the escalation reason and the agent who escalated before saving an escalated case.</errorMessage>
+</ValidationRule>

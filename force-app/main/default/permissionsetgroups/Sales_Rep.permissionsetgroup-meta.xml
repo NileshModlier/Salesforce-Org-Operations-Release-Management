@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSetGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Single assignment for the Sales Rep persona. Add later permission sets here instead of editing each user.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Sales Rep</label>
+    <permissionSets>Reporting_Sales</permissionSets>
+    <permissionSets>Sales_Rep</permissionSets>
+    <status>Updated</status>
+</PermissionSetGroup>

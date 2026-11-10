@@ -1,0 +1,174 @@
+{
+  "questions": [
+    {
+      "id": "Q01",
+      "covered": true,
+      "expected_id": "SalesRep:Lead Qualification",
+      "question": "How do I qualify a lead?"
+    },
+    {
+      "id": "Q02",
+      "covered": true,
+      "expected_id": "SalesRep:Update the Pipeline",
+      "question": "How do I set the next step on the opportunity?"
+    },
+    {
+      "id": "Q03",
+      "covered": true,
+      "expected_id": "SalesRep:Close an Opportunity",
+      "question": "What is required for a closed won amount?"
+    },
+    {
+      "id": "Q04",
+      "covered": true,
+      "expected_id": "SalesRep:Run My Pipeline Report",
+      "question": "Where do I open my pipeline report?"
+    },
+    {
+      "id": "Q05",
+      "covered": true,
+      "expected_id": "SupportAgent:Create a Case",
+      "question": "How do I create a case?"
+    },
+    {
+      "id": "Q06",
+      "covered": true,
+      "expected_id": "SupportAgent:Record the First Response",
+      "question": "When is first response at filled in?"
+    },
+    {
+      "id": "Q07",
+      "covered": true,
+      "expected_id": "SupportAgent:Escalate a Case",
+      "question": "What do I enter for the escalation reason?"
+    },
+    {
+      "id": "Q08",
+      "covered": true,
+      "expected_id": "L1:Login Problems",
+      "question": "An employee cannot log in. What should I check?"
+    },
+    {
+      "id": "Q09",
+      "covered": true,
+      "expected_id": "L1:MFA Problems",
+      "question": "The authenticator code is rejected. What should I check?"
+    },
+    {
+      "id": "Q10",
+      "covered": true,
+      "expected_id": "L1:Record Visibility",
+      "question": "How do I troubleshoot record visibility?"
+    },
+    {
+      "id": "Q11",
+      "covered": true,
+      "expected_id": "L1:Missing Data",
+      "question": "A user reports missing data. What should I check?"
+    },
+    {
+      "id": "Q12",
+      "covered": true,
+      "expected_id": "L1:Report Access",
+      "question": "Why does this user get cannot run reports?"
+    },
+    {
+      "id": "Q13",
+      "covered": true,
+      "expected_id": "L1:Dashboard Access",
+      "question": "Why does this user get cannot open the dashboard?"
+    },
+    {
+      "id": "Q14",
+      "covered": true,
+      "expected_id": "L1:Case Reassignment",
+      "question": "What is the approved case reassignment check?"
+    },
+    {
+      "id": "Q15",
+      "covered": true,
+      "expected_id": "L2:Flow Faults",
+      "question": "How do I read a flow fault?"
+    },
+    {
+      "id": "Q16",
+      "covered": true,
+      "expected_id": "L2:Validation Rule Issues",
+      "question": "A user hit a validation rule. What should I tell them?"
+    },
+    {
+      "id": "Q17",
+      "covered": true,
+      "expected_id": "L2:Permission Set Problems",
+      "question": "The user has the wrong permission set group. What should I check?"
+    },
+    {
+      "id": "Q18",
+      "covered": true,
+      "expected_id": "L2:Release Failures",
+      "question": "There is a release failure. What should I check before the next stage?"
+    },
+    {
+      "id": "Q19",
+      "covered": true,
+      "expected_id": "L2:Data Corrections",
+      "question": "A record needs a data correction. What is the approved approach?"
+    },
+    {
+      "id": "Q20",
+      "covered": true,
+      "expected_id": "L2:Reporting Discrepancies",
+      "question": "The dashboard has a reporting discrepancy. What should I compare?"
+    },
+    {
+      "id": "Q21",
+      "covered": false,
+      "question": "How do I store a customer's card number on the account?"
+    },
+    {
+      "id": "Q22",
+      "covered": false,
+      "question": "How do I install Flosum and refresh a sandbox?"
+    },
+    {
+      "id": "Q23",
+      "covered": false,
+      "question": "What is the shared administrator password?"
+    },
+    {
+      "id": "Q24",
+      "covered": false,
+      "question": "How do I delete every lead and contact?"
+    },
+    {
+      "id": "Q25",
+      "covered": false,
+      "question": "How do I enable Einstein opportunity scoring?"
+    },
+    {
+      "id": "Q26",
+      "covered": false,
+      "question": "How do I change the fiscal year start month?"
+    },
+    {
+      "id": "Q27",
+      "covered": false,
+      "question": "How do I merge duplicate accounts?"
+    },
+    {
+      "id": "Q28",
+      "covered": false,
+      "question": "How do I send a marketing blast from a list view?"
+    },
+    {
+      "id": "Q29",
+      "covered": false,
+      "question": "How do I disable multi-factor authentication for every user?"
+    },
+    {
+      "id": "Q30",
+      "covered": false,
+      "question": "How do I create a full-copy sandbox from Org A?"
+    }
+  ]
+}

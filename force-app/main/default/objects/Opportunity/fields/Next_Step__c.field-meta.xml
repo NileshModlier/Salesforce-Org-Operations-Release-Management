@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Next_Step__c</fullName>
+    <description>The next action on this opportunity. Gives a rep a way to see which owned deal needs attention. REQ-001.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>State the next action and when it should happen.</inlineHelpText>
+    <label>Next Step</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

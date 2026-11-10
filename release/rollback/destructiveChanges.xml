@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Removes Release 2 reports and dashboards only. Leaves Release 1 in place. Not deployed. -->
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>Sales_Leadership/Sales_Dashboard</members>
+        <members>Support_Leadership/Support_Dashboard</members>
+        <members>Sales_Leadership</members>
+        <members>Support_Leadership</members>
+        <name>Dashboard</name>
+    </types>
+    <types>
+        <members>Sales_Leadership/Lead_Conversion_By_Source</members>
+        <members>Sales_Leadership/Pipeline_By_Stage</members>
+        <members>Sales_Leadership/Opportunities_Closing_This_Month</members>
+        <members>Sales_Leadership/Open_Opportunity_Value</members>
+        <members>Sales_Leadership/Conversion_Rate</members>
+        <members>Support_Leadership/Open_Cases_By_Priority</members>
+        <members>Support_Leadership/Cases_By_Status</members>
+        <members>Support_Leadership/First_Response_Performance</members>
+        <members>Support_Leadership/Escalations_By_Priority</members>
+        <members>Support_Leadership/Cases_Closed_By_Agent</members>
+        <members>Sales_Leadership</members>
+        <members>Support_Leadership</members>
+        <name>Report</name>
+    </types>
+    <version>68.0</version>
+</Package>

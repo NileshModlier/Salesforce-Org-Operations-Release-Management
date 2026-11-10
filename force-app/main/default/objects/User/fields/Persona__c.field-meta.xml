@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Persona__c</fullName>
+    <description>Operating role for Lightning page visibility. Does not grant or remove object access. REQ-011 and REQ-012.</description>
+    <inlineHelpText>Choose the role this person is demonstrating. Access control is a later milestone.</inlineHelpText>
+    <label>Persona</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Sales Rep</fullName>
+                <default>false</default>
+                <label>Sales Rep</label>
+            </value>
+            <value>
+                <fullName>Support Agent L1</fullName>
+                <default>false</default>
+                <label>Support Agent L1</label>
+            </value>
+            <value>
+                <fullName>Support Lead L2</fullName>
+                <default>false</default>
+                <label>Support Lead L2</label>
+            </value>
+            <value>
+                <fullName>Ops Admin</fullName>
+                <default>false</default>
+                <label>Ops Admin</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Return_Guidance__c</fullName>
+    <description>What L1 should do when L2 sends an escalated case back. Required by Case_Return_Requires_Guidance. REQ-008.</description>
+    <inlineHelpText>Tell L1 what to do next. Required when status moves from Escalated back to New, Working, or Waiting on Customer.</inlineHelpText>
+    <label>Return Guidance</label>
+    <length>1000</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>4</visibleLines>
+</CustomField>
